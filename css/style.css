@@ -1,0 +1,42 @@
+/*header with link and navigation*/
+.head {
+    background-color: rgb(3, 3, 51);
+    
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+}
+
+.topNav {
+    background-color: rgb(3, 3, 51);
+    display: flex;
+    font-weight: lighter;
+    list-style-type: none;
+    justify-content: end;
+
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+}
+
+
+body {
+    background-color: whitesmoke;
+}
+
+/*buttons next to logo*/
+button {
+    background-color: rgb(3, 3, 51);
+    border: 1px rgb(3, 3, 51);
+    color: white;
+    cursor: pointer;
+}
+
+.buttongroup {
+    text-align: right;
+    float: right;
+}
