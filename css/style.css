@@ -145,6 +145,7 @@ button {
     background-color: rgb(3, 3, 51);
 }
 
+/*Bottom Section headers*/
 .bsection1 > h1 {
     text-align: center;
     color: white;
@@ -160,6 +161,7 @@ button {
     color: white;
 }
 
+/*Bottom section sections and lists*/
 .bsection1 {
     text-align: center;
     color: gray;
@@ -226,4 +228,10 @@ button {
     padding: 15px 20px;
     font-size: larger;
     font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(91, 91, 233);
+    color: white;
 }
